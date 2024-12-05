@@ -1,11 +1,5 @@
 #!/usr/bin/env -S julia -t 4 -- project
 
-function check_card(m::Vector{String}, id::Int)
-
-
-  return points, cnt
-end
-
 open("input.txt") do f
   m = readlines(f)
   num_rows = length(m)

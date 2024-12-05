@@ -1,4 +1,4 @@
-#!/usr/bin/env -S julia -t 4 -- project
+#!/usr/bin/env -S julia -t 4 -- .
 
 max_values = (red = 12, green = 13, blue = 14)
 
@@ -41,5 +41,5 @@ open("input.txt") do f
     product_sum += min_green * min_red * min_blue
   end
   println("Number of possible: ", cnt_possible)
-  println("Priduct sum: ", product_sum)
+  println("Product sum: ", product_sum)
 end
